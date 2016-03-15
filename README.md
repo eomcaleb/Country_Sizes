@@ -1,21 +1,23 @@
 # Country-Sizes #
+### Displaying country's land size in a circle ###
+![Interface Image](/img/interface.PNG)
 
-![Alt text](/img/interface.PNG)
+## Setup ##
+Firefox - (no install necessary) allows AJAX calls to local files. 
+Chrome - Launch with flag --allow-file-access-from-files > more info: http://www.chrome-allow-file-access-from-file.com/
+Node.JS - instructions to come.
 
-This project uses D3 and Javascript to display various countries in different sizes depending on their land mass. Who doesn't like viewing all countries in a single page, right? The data is in a JSON format which can be parsed through including other information about a country.
-Countries are also colour (sorry... It's Canada) coded based on their geographical region (continents).
 
-## Required Knowledge/Experience ##
-* HTML
-* CSS
-* JavaScript
-* D3
-* JSON
+## Languages / Syntax ##
+* HTML, D3.js, JSON
 
-## Notes ##
-Items are flexible in a way that it can be dragged to different places and pulled back towards the centre.
+## Customization/ ##
+Colors - colors are sorted by different continents which can be changed to your preference.
+The JSON file includes other information about a country.
+The circle size and color can represent different sets of data.
 
-## Developer ##
-Caleb SeBin Eom.
+## FAQ ##
+name: Caleb SeBin Eom.
+email: eomcaleb@gmail.com
 
 Readme Updated: 3-Feb 2016

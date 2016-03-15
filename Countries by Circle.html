@@ -19,6 +19,7 @@
 
       var width = 1080,
           height = 800;
+      var const_total_area = 887288;
 
       var color = d3.scale.category10();
 
@@ -42,7 +43,7 @@
           var node = svg.selectAll(".node")
             .data(graph.country)
             .enter().append("circle")
-            .attr("r", function(d) {return (d.area/887288)+3;})
+            .attr("r", function(d) {return (d.area/const_total_area)+3;})
             .style("fill", function(d) { return color(d.region); })
             .attr("class", "node")
             .call(force.drag);
